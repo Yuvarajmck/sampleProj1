@@ -1,4 +1,4 @@
-
+import java.lang.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,6 +6,8 @@ public class Main {
           float r = 2.17F;
           double d = r+2*pi;
           int x = (int)d+5;
+          String s = "10.0";
         System.out.println(x);
+        System.out.println(Double.parseDouble(s));
     }
 }
