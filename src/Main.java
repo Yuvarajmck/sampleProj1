@@ -1,4 +1,5 @@
 import java.lang.*;
+import java.text.NumberFormat;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,5 +10,8 @@ public class Main {
           String s = "10.0";
         System.out.println(x);
         System.out.println(Double.parseDouble(s));
+        NumberFormat curr = NumberFormat.getCurrencyInstance();
+        String res = curr.format(1234567.98765);
+        System.out.println(res);
     }
 }
