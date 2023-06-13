@@ -8,7 +8,7 @@ public class Main {
             System.out.println(i);
         }
         int[] array = {1, 2, 3, 4, 5, 6, 6};
-        for(int i:array){//modified for loop
+        for(int i:array){//for-each loop
             System.out.println(i);
         }
         int i=0;
@@ -20,5 +20,12 @@ public class Main {
             System.out.println("Time "+i);
             i++;
         } while(i>0);
+        while(true){//runs forever
+            System.out.println("hello");
+            if(i==50){
+                break;//break the loop
+            }
+            i+=1;
+        }
     }
 }
