@@ -10,6 +10,8 @@ public class Main {
         System.out.println(msg.replace("world", "earth"));
         System.out.println(msg.length());
         String txt_msg = "he said \"hello maria\"";
+        String working_dir = "\"C:\\\\user\\\\dante\\\\coding-workspace\\\\java-space\\\\Main.java\"";
         System.out.println(txt_msg);
+        System.out.println("Working dir : "+working_dir);
     }
 }
