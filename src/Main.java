@@ -11,7 +11,7 @@ public class Main {
         System.out.println(x);
         System.out.println(Double.parseDouble(s));
 
-        NumberFormat curr = NumberFormat.getCurrencyInstance();
+        NumberFormat curr = NumberFormat.getPercentInstance();
         String res = curr.format(1234567.98765);
         System.out.println(res);
     }
