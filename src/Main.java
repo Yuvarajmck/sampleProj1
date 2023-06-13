@@ -6,5 +6,10 @@ public class Main {
           msg+=" world";
         System.out.println(msg);
         System.out.println(msg.endsWith("ld"));
+        System.out.println(msg.toUpperCase());
+        System.out.println(msg.replace("world", "earth"));
+        System.out.println(msg.length());
+        String txt_msg = "he said \"hello maria\"";
+        System.out.println(txt_msg);
     }
 }
